@@ -16,10 +16,6 @@ const StyledContainer = styled(Container)`
   margin: auto;
 `;
 
-const StyledTypography = styled(Typography)`
-  color: #fff; // Custom text color
-`;
-
 const App = () => {
   const [data, setData] = useState({
     homeValue: 3000,
