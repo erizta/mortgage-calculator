@@ -1,5 +1,6 @@
+// eslint-disable-next-line 
 import React, { useState } from "react";
-import { Container, Grid, Typography } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import { styled } from "@mui/system";
 // components
 import Navbar from "./components/Navbar";
