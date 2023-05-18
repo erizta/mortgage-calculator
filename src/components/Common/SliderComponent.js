@@ -1,4 +1,9 @@
 import { Slider, Stack, Typography } from "@mui/material";
+import { styled } from "@mui/system";
+
+const StyledSlider = styled(Slider)`
+  color: #00bcd4; // Custom slider color
+`;
 
 const SliderComponent = ({
   defaultValue,
@@ -19,7 +24,7 @@ const SliderComponent = ({
           {unit} {amount}
         </Typography>
       </Stack>
-      <Slider
+      <StyledSlider
         min={min}
         max={max}
         defaultValue={defaultValue}

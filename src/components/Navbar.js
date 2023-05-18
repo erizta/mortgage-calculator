@@ -31,7 +31,7 @@ const Navbar = () => {
     <StyledAppBar position="static">
       <Container maxWidth="xl">
         <Toolbar>
-          <StyledTypography variant="h5" sx={{ flexGrow: 1 }}>
+          <StyledTypography variant="h5" sx={{ flexGrow: 1 , fontWeight:"bold"}}>
             A &amp; H Bank
           </StyledTypography>
           {/* Add more components or links to the toolbar if needed */}
